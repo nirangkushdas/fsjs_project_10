@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.first-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: #f0f8ff;
+}
+
+.firstpart{
+    background-image: url("../Photos/mainBackground.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoimg{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.list-tags:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line{
+    color: #c9c9c9;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.firstdiv{
+    margin-left: 100px;
+    margin-top: 110px;
+}
+
+.h1{
+    color: #f0f8ff;
+    font-size: 4vw;
+    margin-bottom: 30px;
+}
+
+.para1{
+    color: #f0f8ff;
+    margin-bottom: 30px;
+}
+
+.btn1{
+    font-size: medium;
+    padding: 10px 30px;
+    border: transparent;
+    border-radius: 20px;
+    background-color: #7a7aff;
+    color: #f0f8ff;
+    font-weight: 500;
+    margin-bottom: 300px;
+    cursor: pointer;
+}
+
+.logoName{
+    padding: 30px 60px;
+    text-align: center;
+    border-radius: 20px;
+    width: 1280px;
+    background-color: #ffffff;
+    /* position: absolute;
+    left: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    float: inline-end;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+
+}
+
+.secondpart{
+    background-color: #efefff;
+    padding-top: 150px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 70px;
+}
+
+.mixtownia{
+    width: 300px;
+    height: 337px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.detailbox{
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 55px;
+    left: 15px;
+}    
+.pname{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.price{
+    font-weight: 500;
+    color: #7a7aff;
+}
+
+.btn2{
+    font-size: small;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #7a7aff;
+    color: #ffffff;
+    border-radius: 30px;
+    border: transparent;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.boxes1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cardimg2{
+    margin-top: 30px;
+}
+
+.cardimg3{
+    margin-top: 60px;
+}
+
+.part3{
+    background-color: #efefff;
+    padding-top: 50px;
+}
+
+.featureimg1{
+    height: 550px;
+    width: 516px;
+    object-fit: cover;
+    border-radius: 50px;
+   position: absolute;
+   bottom: 135px;
+   left: 129px;
+}
+
+.part3firstdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: relative;
+}
+
+.h3{
+    font-size: 3vw;
+    margin-bottom: 30px;
+}
+
+.para3{
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.btn3{
+    font-size: medium;
+    padding: 15px 40px;
+    border: transparent;
+    border-radius: 30px;
+    background-color: #7a7aff;
+    color: #f0f8ff;
+    font-weight: 500;
+    margin-bottom: 300px;
+    cursor: pointer;
+}
+
+.part3secondiv{
+    position: relative;
+    top: 100px;
+    height: 300px;
+}
+
+.btndiv{
+    height: 100px;
+}
+
+.part4{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    position: relative;
+}
+
+.featureimg2{
+    height: 550px;
+    width: 516px;
+    object-fit: cover;
+    border-radius: 50px;
+    position: absolute;
+   bottom: 135px;
+   right: 129px;
+}
+
+.mailimg{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #6868ff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 250px;
+    border-radius: 30px;
+    
+}
+
+.e-mail{
+    border: none;
+    background-color: #6868ff;
+}
+
+.mailandsub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.last-div{
+    text-align: center;
+    width: 1200px;
+    border-radius: 20px;
+    background-color: #7a7aff;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    padding: 40px;
+}
+
+.h5{
+    font-size: 4vw;
+    font-weight: 600;
+    color: #ffffff;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+.para5{
+    color: #e7e7e7;
+    padding-bottom: 30px;
+}
+
+.subbtn{
+    font-size: medium;
+    padding: 10px 30px;
+    border: transparent;
+    border-radius: 30px;
+    background-color: white;
+    color: #7a7aff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #efefff;
+    padding: 50px 0;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.logolast{
+    cursor: pointer;
+}
+
+
+.twitter{
+    padding: 30px 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.facebook{
+    padding-bottom: 40px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.insta{
+    padding-bottom: 40px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.footer-head{
+    font-weight: 600;
+}
+
+.footer-tags:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footerlist2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 90px;
+    margin-top: 10px;
+   
+}
+
+.footerlist1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 180px;
+    margin-top: 10px;
+
+}
